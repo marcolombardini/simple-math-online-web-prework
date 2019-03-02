@@ -10,13 +10,16 @@ def division(num1 = 50, num2 = 2)
   return num1 / num2
 end
 
-def multiplication(num1, num2)
+def multiplication(num1 = 4, num2 = 30)
+  return num1 * num2
 end
 
-def modulo(num1, num2)
+def modulo(num1 = 34, num2 = 5)
+  return num1 % num2
 end
 
-def square_root(num)
+def square_root(num = 82)
+  return Math.sqrt(num) 
 end
 
 def order_of_operation(num1, num2, num3, num4)
