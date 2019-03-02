@@ -1,5 +1,6 @@
 def addition(num1 = 5, num2 = 4)
   puts = "#(num1) + #(num2)"
+  total = 9
 end
 
 def subtraction(num1, num2)
