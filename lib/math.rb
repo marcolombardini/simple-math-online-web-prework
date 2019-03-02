@@ -6,7 +6,8 @@ def subtraction(num1 = 10, num2 = 5)
   return num1 - num2
 end
 
-def division(num1, num2)
+def division(num1 = 50, num2 = 2)
+  return num1 / num2
 end
 
 def multiplication(num1, num2)
